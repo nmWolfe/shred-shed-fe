@@ -1,12 +1,12 @@
-import "./Nav.scss"
-import { Link } from "react-router-dom"
+import SearchBar from "../SearchBar/SearchBar";
+import "./Nav.scss";
 
 const Nav = () => {
-    return (
-        <div className="nav">
-            
-        </div>
-    )
-}
+  return (
+    <div className="nav">
+      <SearchBar />
+    </div>
+  );
+};
 
 export default Nav;
