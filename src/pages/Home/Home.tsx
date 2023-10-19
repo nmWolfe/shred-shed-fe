@@ -1,12 +1,11 @@
-import Nav from "../../components/Nav/Nav";
+import Layout from "../../components/Layout/Layout";
 import "./Home.scss";
 
 const Home = () => {
   return (
-    <div className="home">
-      <Nav />
-      
-    </div>
+    <Layout>
+      <div className="home"></div>
+    </Layout>
   );
 };
 

@@ -18,9 +18,9 @@ const Nav = () => {
         {" "}
         About{" "}
       </Link>
-      <Link to="Shop" className="nav__link">
+      <Link to="Compare" className="nav__link">
         {" "}
-        Shop{" "}
+        Compare{" "}
       </Link>
       <Link to="Share" className="nav__link">
         {" "}
