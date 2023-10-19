@@ -1,9 +1,19 @@
 @use "../../styles/variables" as *;
 
 .home {
-  width: 100vw;
-  height: 100vh;
-  margin: auto;
-  border: 0.2rem solid $primaryBeige;
-  border-radius: 3rem;
+  padding: 1rem;
+  border: 0.1rem solid $primaryBeige;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &__header {
+    text-decoration: underline;
+    text-decoration-color: $primaryGreen;
+    padding: 1rem;
+    font-family: $fontYeseva;
+  }
+  &__intro {
+    text-align: center;
+  }
 }

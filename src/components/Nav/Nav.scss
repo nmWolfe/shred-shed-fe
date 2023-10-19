@@ -6,7 +6,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: none;
   background: none;
   border-bottom: 0.1rem solid $primaryBeige;
   &__image {
@@ -16,8 +15,11 @@
   &__link {
     color: $primaryBeige;
     text-decoration: none;
-    &:hover {
+    &:hover,
+    &:active {
       color: rgba($color: #ffe4c4, $alpha: 0.5);
+      text-decoration: underline;
+      text-decoration-color: $primaryGreen;
     }
   }
 }
