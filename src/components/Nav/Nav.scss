@@ -1,0 +1,21 @@
+@use "../../styles/variables" as *;
+
+.nav {
+  margin: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: none;
+  border-bottom: 0.1rem solid $primaryBeige;
+  &__image {
+    height: 2rem;
+    border-radius: 0.2rem;
+  }
+  &__link {
+    color: $primaryBeige;
+    &:hover {
+      color: rgba($color: #ffe4c4, $alpha: 0.5);
+    }
+  }
+}

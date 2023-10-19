@@ -1,4 +1,9 @@
+// import { ChangeEventHandler } from "react";
 import "./SearchBar.scss";
+
+// type SearchBarProps = {
+//   onChange: ChangeEventHandler<HTMLInputElement>;
+// };
 
 const SearchBar = () => {
   return (
@@ -11,6 +16,7 @@ const SearchBar = () => {
         id="search"
         className="search-box__input"
         placeholder="What are you looking for..."
+        // onChange={onChange}
       />
     </div>
   );

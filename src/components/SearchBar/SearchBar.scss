@@ -1,0 +1,18 @@
+@use "../../styles/variables" as *;
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  .search-box {
+    &__label {
+      margin: 0.5rem;
+    }
+    &__input {
+      height: 1.7rem;
+      border-radius: 0.3rem;
+      padding: 0.2rem;
+      border: 0.1rem solid $primaryBeige;
+      outline: none;
+    }
+  }
+}
